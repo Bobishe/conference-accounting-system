@@ -1,0 +1,224 @@
+<head>
+    <title>Канский Педагогический Колледж » Студент года 2023</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<style>
+@-webkit-keyframes card-shift {
+ 0% {
+  -webkit-transform:translate3d(-30px,0,0);
+  transform:translate3d(-30px,0,0)
+ }
+ 25% {
+  -webkit-transform:translate3d(0,-30px,0);
+  transform:translate3d(0,-30px,0)
+ }
+ 50% {
+  -webkit-transform:translate3d(0,-30px,0);
+  transform:translate3d(0,-30px,0)
+ }
+ 75% {
+  -webkit-transform:translate3d(-30px,0,0);
+  transform:translate3d(-30px,0,0)
+ }
+ to {
+  -webkit-transform:translate3d(-30px,0,0);
+  transform:translate3d(-30px,0,0)
+ }
+}
+@keyframes card-shift {
+ 0% {
+  -webkit-transform:translate3d(-30px,0,0);
+  transform:translate3d(-30px,0,0)
+ }
+ 25% {
+  -webkit-transform:translate3d(0,-30px,0);
+  transform:translate3d(0,-30px,0)
+ }
+ 50% {
+  -webkit-transform:translate3d(0,-30px,0);
+  transform:translate3d(0,-30px,0)
+ }
+ 75% {
+  -webkit-transform:translate3d(-30px,0,0);
+  transform:translate3d(-30px,0,0)
+ }
+ to {
+  -webkit-transform:translate3d(-30px,0,0);
+  transform:translate3d(-30px,0,0)
+ }
+}
+
+body {
+  margin:0;
+  padding:0;
+}
+
+.card-wrapper {
+  overflow: hidden;
+  display: block;
+  height: 900px; 
+  position: relative;
+
+  .content {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 100vh;
+  }
+  .welcome {
+    font-family: Merienda;
+    font-size: 3em;
+    color: #fff;
+    display: block;    
+  }
+  h1 {
+    font-family: 'Alex Brush';
+    color: #fff;
+    font-size: 9em;
+    text-shadow: 5px 4px 7px rgba(#000, .4);
+    display: block;
+  }
+
+}
+.shade {
+  position: absolute;
+  z-index: -1;
+  // background: rgba(blue,.6);
+  background: -webkit-linear-gradient(top, rgba(#103d85, .6), rgba(#451f49,.8) 62%, rgba(#5b2911,.4) 99%);
+  background-image: linear-gradient(180deg, rgba(#103d85, .6), rgba(#451f49,.8) 62%, rgba(#5b2911,.4) 99%);
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+.card__bg__image {
+  height: calc(100% + 30px);
+  width: calc(100% + 30px);
+  -webkit-animation: card-shift 12s ease-in-out infinite;
+  animation: card-shift 12s ease-in-out infinite;
+  position: absolute;
+  z-index: -3;
+  // height: 600px;
+  top:0;
+  left:0;
+  right: 0;
+  bottom: 0;
+}
+
+.card__bg_image img {
+  object-fit: fill;
+}
+
+
+@media (min-width: 0px) and (max-width: 576px) {
+	.main_bg{
+		width: 100%;
+		height: 100%;
+		background: url('bt-top_576.png') no-repeat;
+		background-position: center;
+	}
+	
+	.main_form {
+    position: absolute;
+    padding: 10px;
+    left: 12%;
+    top: 300;
+    width: 76%;
+    height: 70%;
+    background: #fff;
+    box-shadow: 0 0 8px 3px rgb(0 0 0 / 16%);
+    border-radius: 3px 3px 3px 3px;
+    border: 1px #dad9da solid;
+}
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+	.main_bg{
+		width: 100%;
+		height: 100%;
+		background: url('bt-top_768.png') no-repeat;
+		background-position: center;
+	}
+	
+	.main_form {
+    position: absolute;
+    padding: 10px;
+    left: 15%;
+    top: 300;
+    width: 70%;
+    height: 70%;
+    background: #fff;
+    box-shadow: 0 0 8px 3px rgb(0 0 0 / 16%);
+    border-radius: 3px 3px 3px 3px;
+    border: 1px #dad9da solid;
+}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+	.main_bg{
+		width: 100%;
+		height: 100%;
+		background: url('bt-top_992.png') no-repeat;
+		background-position: center;
+	}
+	
+	.main_form {
+    position: absolute;
+    padding: 10px;
+    left: 17%;
+    top: 300;
+    width: 66%;
+    height: 70%;
+    background: #fff;
+    box-shadow: 0 0 8px 3px rgb(0 0 0 / 16%);
+    border-radius: 3px 3px 3px 3px;
+    border: 1px #dad9da solid;
+}
+}
+@media (min-width: 992px) {
+	.main_bg{
+		width: 100%;
+		height: 100%;
+		background: url('bt-top.png') no-repeat;
+		background-position: center;
+	}
+	
+	.main_form {
+    position: absolute;
+    padding: 10px;
+    left: 23%;
+    top: 300;
+    width: 54%;
+    height: 70%;
+    background: #fff;
+    box-shadow: 0 0 8px 3px rgb(0 0 0 / 16%);
+    border-radius: 3px 3px 3px 3px;
+    border: 1px #dad9da solid;
+}
+}
+
+.main_middle {
+	width: 100%;
+	height: 5px; 
+	background: url('bg-middle.jpg') repeat-x;
+}
+
+
+
+</style>
+
+<body>
+<body style="padding:0px; margin:0pxl; background: url(bg-low.jpg) repeat;">
+<div class="card-wrapper" style="width: 100%; height: 350px;">
+   <div class="shade"></div>
+     <div class="card__bg__image" style="margin:auto; background-color: #ffffff;"><center>
+       <img alt="" src="bg-top.jpg" ></center>
+     </div>
+
+	<div class=main_bg></div>
+</div>
+<div class=Main_middle></div>
+
+<div class=main_form>Форма ввода</div>
+
+</body>
+</body>
